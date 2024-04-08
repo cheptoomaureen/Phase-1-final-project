@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<title></title>
+<body>
+    <section>
+        <header>
+            <a href=" #" class ="logo"> MCK</a>
+            <div class="search">
+            <input class="srch" type="search"name=""place holder="Type to text">
+            <a href="#"> <button class="btn">search<button></a>
+            </div>
+        </header>
+        <div class="container">
+            <div class="contentBox">
+                
+                <h1 class="name">OUR PASSENGER APP CUSTOMER SERVICE</h1>
+                <p> Welome onboard</p>   
+
+<header>
+  
+</header>
+
+<nav>
+  <a href="#HOME">HOME</a>
+  <a href="#FOOD AND BEVERAGES">FOOD AND BEVERAGES</a>
+  <a href="#MEDICAL SERVICES   ">MEDICAL SERVICES</a>
+  <a href="#STAFF CONTACTS ">STAFF CONTACTS</a>
+  <a href="#HOW TO NAVIGATE   ">HOW TO NAVIGATE</a>
+  
+</nav>
+<!-- Login Page -->
+<div id="login-page" class="page">
+    <h1>Login</h1>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+            <option value="passenger">Passenger</option>
+            <option value="flight_attendant">Flight Attendant</option>
+            <option value="pilot">Pilot</option>
+            <option value="medical_attendant">Medical Attendant</option>
+            <option value="flight_engineer">Flight Engineer</option>
+        </select>
+        <button type="submit">Login</button>
+    </form>
+</div>
+     <div class="content" >
+        <h1 id="HOME">HOME</h1>
+        <p>Welcome to the our passanger service website.
+            We are dedicated to ensuring you get best experience while onboard,you can scroll to view all services we provide,wishing you an enjoyable flight ...LETS GET STARTED</p>
+        
+        <h1 id="FOOD AND BEVERAGES">FOOD AND BEVERAGES</h1>
+        <p>We have different cooked food,drinks and snacks,you can view them and buy.</p>
+        <div class="row">
+            <div class="column">
+                <h1>snacks</h1>
+                <ol>
+                <h2>
+               <li> Snickers</li><img src="./phase 1 project pictures/Pasted image.png" alt="snickers">    
+               </h2>
+               <button id="show-more-btn" onclick="showMore()">Show More</button>
+           
+               <div id="more-info">
+                 
+               </div>
+                </ol>
+             <div class="column">
+                <h1>main meal</h1> 
+                <ol><h2>
+                    <li> Creamy Lemon Chicken Piccata</li><img src="https://tastesbetterfromscratch.com/wp-content/uploads/2022/10/3Course-ChickenPiccatta.jpg"alt="">
+                   
+                   </h2>
+                </ol>
+                <button id="show-more-btn" onclick="showMore()">Show More</button>
+           
+                <div id="more-info">
+                  
+                </div>
+            </div>
+          </div>
+          <div class="column">
+            <h1>beverages</h1>
+            <h2>
+                <l1>Ready to drink </l1><img src="https://media.licdn.com/dms/image/D4D12AQGadYJ1foxn2Q/article-cover_image-shrink_720_1280/0/1694428372626?e=2147483647&v=beta&t=J9x1s5MZKx1mml2XLmVEdzSjH4DiL3QfznrJ2zf7hkQ"alt="Ready to drink">
+            </h2>
+            <button id="show-more-btn" onclick="showMore()">Show More</button>
+           
+            <div id="more-info">
+              
+            </div>
+        <h1 id="MEDICAL SERVICES">MEDICAL SERVICES</h1>
+            <h2>
+             <l1>Chief Medical Officer <button id="show-cmo-contacts-btn" onclick="showCMOContacts()">Show CMO Contacts</button>
+            <div id="cmo-contacts"></l1>
+                <h2>Contact Information:</h2>
+                <p>Name: Dr. Alice Middletown</p>
+                <p>Email: alice.middletown@gmail.com</p>
+                <p>Emergency number:+25423456789</p>
+           </div>
+            </h2>
+         </ol>
+         <h2>
+         <li>Medical equipments</li> <div >
+            <li>List of Medical Equipment</li>
+            <ol id="medical-equipment-list">
+                <!-- Equipment items will be dynamically added here -->
+            </ol>
+            <ol>
+
+            <!-- Medical equipment will be displayed here -->
+        </div>
+        <button onclick="fetchMedicalEquipment()">Fetch Medical Equipment</button>
+        <ul id="medical-equipment-list"></ul>
+      
+         <li>Medical Advice Line</li>
+        </h2>
+    </div>
+    <h1 id="STAFF CONTACTS ">STAFF CONTACTS </h1> 
+    <p>Our staff are ready to help and you can reach them by clicking on the button</p>   
+     <img src="https://imgs.search.brave.com/VB0QTXHjJ2Tk5APUQ4FStA7AFALK0k6uqdMYKwzxUSk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9w/b3J0cmFpdC1mbGln/aHQtYXR0ZW5kYW50/LXdpdGgtc2FmZXR5/LWJlbHRfMjMtMjE1/MDI4Mjg1MC5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw"alt="staff image">
+     <button id="show-contacts-btn">Show Flight Attendants</button>
+     <div id="flight-attendants-list" style="display: none;">
+         <!-- Flight attendants' names and contacts will be displayed here -->
+      
+     </div>
+     <button onclick="showCrewMembers()">Show Crew Members</button>
+     <div id="crewMembers"></div>
+<script src="index.js"></script>
+</body>
+</html>

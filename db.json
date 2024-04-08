@@ -1,0 +1,105 @@
+{
+    "title": "List of Medical Equipment",
+    "equipment": [
+        {
+            "id": 1,
+            "name": "Blood Pressure Monitor",
+            "description": "A device used to measure blood pressure",
+            "manufacturer": "ABC Medical Devices",
+            "price": 150.00
+        },
+        {
+            "id": 2,
+            "name": "Stethoscope",
+            "description": "An acoustic medical device for auscultation, or listening to internal sounds of an animal or human body",
+            "manufacturer": "XYZ Instruments",
+            "price": 50.00
+        },
+        {
+            "id": 3,
+            "name": "Oxygen Tank",
+            "description": "A device for storing oxygen",
+            "manufacturer": "Oxygen Supplies Inc.",
+            "price": 200.00
+        },
+        {
+            "id": 4,
+            "name": "Wheelchair",
+            "description": "A chair with wheels for use by people who cannot walk due to illness, injury, or disability",
+            "manufacturer": "Mobility Solutions",
+            "price": 300.00
+        },
+        {
+            "id": 5,
+            "name": "Defibrillator",
+            "description": "A device that delivers a dose of electric current to the heart",
+            "manufacturer": "LifeSaver Technologies",
+            "price": 1000.00
+        }
+    ] ,  
+
+
+    "crew_members": [
+      {
+        "name": "John Smith",
+        "position": "Pilot",
+        "email": "john.smith@gmail.com",
+        "phone": "+1 (123) 456-7890"
+      },
+      {
+        "name": "Emily Davis",
+        "position": "Co-Pilot",
+        "email": "emily.davis@gmail.com",
+        "phone": "+1 (234) 567-8901"
+      },
+      {
+        "name": "Michael Johnson",
+        "position": "Flight Co-Pilot",
+        "email": "michael.johnson@gmail.com",
+        "phone": "+1 (345) 678-9012"
+      },
+      {
+        "name": "Sophia Martinez",
+        "position": " Nurse",
+        "email": "sophia.martinez@gmail.com",
+        "phone": "+1 (456) 789-0123"
+      },
+      {
+        "name": "David Brown",
+        "position": "Engineer",
+        "email": "david.brown@gmail.com",
+        "phone": "+1 (567) 890-1234"
+      },
+      {
+        "name": "Emma Wilson",
+        "position": "Navigator",
+        "email": "emma.wilson@gmail.com",
+        "phone": "+1 (678) 901-2345"
+      },
+      {
+        "name": "James Lee",
+        "position": "Flight Engineer",
+        "email": "james.lee@gmail.com",
+        "phone": "+1 (789) 012-3456"
+      },
+      {
+        "name": "Olivia Taylor",
+        "position": "Assistant Medical Officer",
+        "email": "olivia.taylor@gmail.com",
+        "phone": "+1 (890) 123-4567"
+      },
+      {
+        "name": "Daniel Anderson",
+        "position": "Technician",
+        "email": "daniel.anderson@gmail.com",
+        "phone": "+1 (901) 234-5678"
+      },
+      {
+        "name": "Ava White",
+        "position": "Navigator",
+        "email": "ava.white@gmail.com",
+        "phone": "+1 (012) 345-6789"
+      }
+    ]
+  }
+  
